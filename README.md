@@ -5,16 +5,17 @@ PROJECT GUIDE
 ATMEGA Controller and Feedback Ammeter
 Instruction Manual and Procedure
 Assembly of the ATMEGA Controller on Breadboard
-Electrical Components
+
+Electrical Components:
 Breadboard
 16 MHz Crystal
-LED 5 Colors Set x2
+LED 5 Colors Set
 5V Regulator
 Atmega328p-pu Chip
 FT232RL USB-Serial
 Wires
-100uF Cap x2
-3 pF x2
+100uF Cap [x2]
+3 pF [x2]
 Resistors
 USB Mini Cable
 
