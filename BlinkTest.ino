@@ -20,6 +20,27 @@
   This example code is in the public domain.
 
   http://www.arduino.cc/en/Tutorial/Blink
+  
+  
+   * 
+ * ****ATMEGA Controller**** 
+ * Divet On Top         
+ * *********(_)*********
+ * **RESET  ***   A5 / SCL
+ * **RX     ***   A4 / SDA
+ * **TX     ***   A3
+ * **Pin 2  ***   A2
+ * **Pin 3  ***   A1
+ * **Pin 4  ***   A0
+ * **VCC    ***   GND
+ * **GND    ***   AREF
+ * **CRYS   ***   AVCC
+ * **CRYS   ***   Pin 13
+ * **Pin 5  ***   Pin 12
+ * **Pin 6  ***   Pin 11
+ * **Pin 7  ***   Pin 10
+ * **Pin 8  ***   Pin 9
+ * *********************
 */
 
 // the setup function runs once when you press reset or power the board
