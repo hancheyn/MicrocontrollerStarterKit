@@ -6,8 +6,6 @@
  * This code demonstrates how the current can be read into 
  * the microcontroller using the A0 anolog input pin.
  * 
- * 
-  * 
  * ****ATMEGA Controller**** 
  * Divet On Top         
  * *********(_)*********
@@ -26,6 +24,7 @@
  * **Pin 7  ***   Pin 10
  * **Pin 8  ***   Pin 9
  * *********************
+ * 
  * This example is public domain.
  */
 
@@ -41,14 +40,18 @@ void setup() {
   Serial.begin(9600);
   Serial.println("This program will read the current in ampson pin A0.");
 
-  //Set LED Pin
+  //Set LED Pin | Pin 13
   pinMode(13, OUTPUT);
+  pinMode(A1, OUTPUT);
 }
 
 void loop() {
-  
+
+  analogWrite(A1, 1000);
+  delay(1000);
+
   //Reads Analog Pin
-  reading = analogRead(AnalogPin);
+  reading = analogRead(AnalogPin); //Pin A0 = AnalogPin
   current = (float)reading * (5.0/1023.0);
   
   //Prints current to console
@@ -57,7 +60,9 @@ void loop() {
   Serial.println(" A.");
   delay(1000);
 
-  //Continue Blinking the LED
+
+
+  //Continue Blinking the LED on Pin 13
   if(LED == true) {
     //LED on Pin 13 is turned on
     digitalWrite(13, HIGH);
