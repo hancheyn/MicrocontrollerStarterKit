@@ -1,5 +1,7 @@
 # MicrocontrollerStarterKit
-Microcontroller and Feedback Ammeter Project
+Microcontroller and Feedback Ammeter Projects
+
+Kit for Sale at solsticevibe.com
 
 PROJECT GUIDE
 ATMEGA Controller and Feedback Ammeter
